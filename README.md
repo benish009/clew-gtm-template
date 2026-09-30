@@ -35,7 +35,7 @@ HTML tag there.
 
 The widget reports tour views, completions and per-step drop-off against a random visitor id
 generated in the browser. No IP address is stored.
-[Privacy policy](https://tryclew.io/legal/privacy) · [Install guide](https://tryclew.io/install)
+[Privacy policy](https://tryclew.io/legal/privacy) · [Install guide](https://tryclew.io/install/google-tag-manager)
 
 ## Licence
 

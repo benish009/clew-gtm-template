@@ -1,5 +1,5 @@
 homepage: https://tryclew.io
-documentation: https://tryclew.io/install/gtm
+documentation: https://tryclew.io/install/google-tag-manager
 versions:
 - sha: 4cfe358d8a3ffd16cea67e3f40bb497dfbb585c7
   changeNotes: |-
