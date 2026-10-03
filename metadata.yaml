@@ -1,7 +1,7 @@
 homepage: https://tryclew.io
 documentation: https://tryclew.io/install/google-tag-manager
 versions:
-- sha: 246367d7394978270c37f3a8b575deb52ffccd59
+- sha: 2b6a7524cc027a537597e47dc3d4351438d21494
   changeNotes: |-
     First version.
     Loads the Clew widget for one site, from the EU or the RU cloud, with an
