@@ -73,9 +73,11 @@ const host = data.host || 'https://tryclew.io';
 const key = data.siteKey;
 const version = data.pinnedVersion;
 
-const url = version && version.length > 0
-  ? host + '/widget/v/' + version + '/' + key + '.js'
-  : host + '/widget/' + key + '.js';
+// rolling by default; a pinned version uses the immutable, year-cached URL
+let url = host + '/widget/' + key + '.js';
+if (version && version.length > 0) {
+  url = host + '/widget/v/' + version + '/' + key + '.js';
+}
 
 const cacheToken = 'clew_' + key + (version || '');
 
